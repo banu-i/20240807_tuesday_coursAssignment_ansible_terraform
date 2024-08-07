@@ -1,7 +1,7 @@
 terraform {
-  backend "s3" {
-    bucket = "<bucket-name>" # Hier eigenen Bucket eintragen
-    key    = "ansible-exercise/vpc.tfstate"
+    backend "s3" {
+    bucket = "techstarter-bil-iac"
+    key    = "ec2-example/vpc.tfstate"
     region = "eu-central-1"
   }
 }
